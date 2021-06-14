@@ -1,0 +1,158 @@
+/* Not exaclty the same font  */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Playfair+Display:wght@600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+*{
+    padding: 0%;
+    background: rgb(248, 248, 248);
+    /* margin: 0%; */
+    margin-right: 4%;
+}
+.middle{
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Playfair Display', serif;
+    font-size: larger;
+}
+
+button{
+  background-color: #ec4f4f; /* Green */
+  border: none;
+  color: white;
+  padding: 17px 55px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 30px;
+  margin-left: 4.5rem;
+}
+
+.nav{
+    margin-left: 3rem;
+}
+
+.middle{
+    margin-top: -32rem;
+    margin-left: 22rem;
+    font-size: 2.1rem;
+    font-weight: 900;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.end{
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    line-height: 1.7;
+    margin-left: 65rem;  
+    overflow:hidden ; 
+}
+
+p{
+    font-family: sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 200px;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;*/
+    font-family: 'Rubik';
+    
+  }
+  
+  .flex-container > div {
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 15px;
+    height: 200px;
+    width: 150px;
+    box-shadow: 5px 10px 18px rgb(206, 203, 203);
+    
+    /* margin-left: 8rem; */
+  }
+.flex-container img{
+      height: 130px;
+      width: 130px;
+      border-radius: 200px;
+      margin-top: 20px;
+      margin-left: 12px;
+      
+  }
+  .flex-container span{
+      margin-left: 20px;
+      margin-bottom: 20px;
+  }
+
+/* ---------------------------------------RESPONSIVE------------------------------------- */
+@media only screen and (max-width:700px){
+    *{
+        margin-top: 150px;
+    }
+    .nav{
+        width: 100%;
+        background: rgb(248, 248, 248);
+        position: absolute;
+        top: 75px;
+        display: none;
+        right: 0;
+
+    }
+    .middle{
+        width: 100%;
+        font-size: 2rem;
+        margin-left: 2rem;
+        margin-top: -24rem;
+    }
+    h4{
+        transform: translateX(-20rem);
+        transform: translateY(-18rem);
+        font-size: 4rem;
+        }
+        .lorem{
+        margin-left: 12rem;
+    }
+    .flex-container{
+
+    margin-left: -5px;
+    margin-top: 5px;
+    }
+
+    .end{
+        /* display:initial; */
+        align-items: center;
+        font-size: 1.6rem;
+        font-family: sans-serif;
+        line-height: 1.7;
+        margin-left: 10rem;  
+        overflow:hidden; 
+        transform: translateX(1rem);
+        transform: translateY(500px);
+        margin-right: 4%;
+    }
+
+    .cart{
+        margin-left: 500px;
+        display: inline;
+        transform: translateX(-2rem);
+    }
+    .menu{
+        display: inline;
+        height: 600px;
+        width: 100px;
+    }
+    button{
+        display: none;
+    }
+    .menu{
+    height: 10px;
+    width: 10px;
+    }
+
+
+    
+}
